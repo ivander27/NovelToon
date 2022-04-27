@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NovelToon</string>
+    <string name="logo">Logo</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="signin">SignIn</string>
+    <string name="register">register</string>
+    <string name="signup">signup</string>
+    <string name="name">name</string>
+    <string name="confirmpassword">confirmpassword</string>
+    <string name="welcome_to_noveltoon">Welcome to NovelToon</string>
+    <string name="go_to_login_page">Go to Login Page</string>
+</resources>
