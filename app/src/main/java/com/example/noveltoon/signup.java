@@ -32,7 +32,7 @@ public class signup extends AppCompatActivity {
         editEmail = findViewById(R.id.email);
         editPassword = findViewById(R.id.password);
         editConfirmPassword = findViewById(R.id.confirmpassword);
-        btnRegister= findViewById(R.id.button_register);
+        btnRegister= findViewById(R.id.button_signup);
         btnBack = findViewById(R.id.button_back);
 
         mAuth = FirebaseAuth.getInstance();
@@ -47,6 +47,7 @@ public class signup extends AppCompatActivity {
             if(editName.getText().length()>0 && editEmail.getText().length()>0 && editPassword.getText().length()>0 && editConfirmPassword.getText().length()>0){
                 if(editPassword.getText().toString().equals(editConfirmPassword.getText().toString())){
                     register(editName.getText().toString(), editEmail.getText().toString(), editPassword.getText().toString());
+                    startActivity(new Intent(getApplicationContext(), signin.class));
                 }else{
                     Toast.makeText(getApplicationContext(), "Password tidak sesuai", Toast.LENGTH_SHORT).show();
                 }
@@ -60,37 +61,15 @@ public class signup extends AppCompatActivity {
         mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
-                if(task.isSuccessful() && task.getResult()!=null){
-                    FirebaseUser firebaseUser = task.getResult().getUser();
-                    if(firebaseUser!= null) {
-                        UserProfileChangeRequest request = new UserProfileChangeRequest.Builder()
-                                .setDisplayName(name)
-                                .build();
-                        firebaseUser.updateProfile(request).addOnCompleteListener(new OnCompleteListener<Void>() {
-                            @Override
-                            public void onComplete(@NonNull Task<Void> task) {
-                                reload();
-                            }
-                        });
-                    }else{
-                        Toast.makeText(getApplicationContext(),"Register Failed", Toast.LENGTH_SHORT).show();
-                    }
-                }else{
-                    Toast.makeText(getApplicationContext(), task.getException().getLocalizedMessage(), Toast.LENGTH_SHORT).show();
+                if(task.isSuccessful())
+                {
+                    Toast.makeText(getApplicationContext(),"You are successfully Registered", Toast.LENGTH_SHORT).show();
+                }
+                else
+                {
+                    Toast.makeText(getApplicationContext(),"You are not Registered! Try again",Toast.LENGTH_SHORT).show();
                 }
             }
         });
-    }
-    private void reload(){
-        startActivity(new Intent(getApplicationContext(), signin.class));
-    }
-    @Override
-    public void onStart() {
-        super.onStart();
-        // Check if user is signed in (non-null) and update UI accordingly.
-        FirebaseUser currentUser = mAuth.getCurrentUser();
-        if(currentUser != null){
-            reload();
-        }
     }
 }
