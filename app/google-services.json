@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "921723301130",
-    "project_id": "noveltoon-a3a65",
-    "storage_bucket": "noveltoon-a3a65.appspot.com"
+    "project_number": "1016559170805",
+    "project_id": "noveltoon-65516",
+    "storage_bucket": "noveltoon-65516.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:921723301130:android:183ff1bd2a388071975ef3",
+        "mobilesdk_app_id": "1:1016559170805:android:4a970ea4372613ed7c01bc",
         "android_client_info": {
           "package_name": "com.example.noveltoon"
         }
       },
       "oauth_client": [
         {
-          "client_id": "921723301130-h2geatl5ej133d0hs0ul4j38qretjl90.apps.googleusercontent.com",
+          "client_id": "1016559170805-dsgrb92123l8thcfjbb3knjndhucg7r3.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.noveltoon",
-            "certificate_hash": "70ceb7a7e5ff9c7b53878b729a10b2a0b6200bc3"
+            "certificate_hash": "2669b22ccb6c1a7cbc873fd3e07a666259a42615"
           }
         },
         {
-          "client_id": "921723301130-vqlfpshjq8eo4btl97ohfbfjs7old69b.apps.googleusercontent.com",
+          "client_id": "1016559170805-rbpvh879k1mqqq54b4u5ocekridusf7g.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC9RkLDKwagqxT_X0DSRc1B_ReS0J-Xx0A"
+          "current_key": "AIzaSyCHDCh2JN5kMJm6auvgQ1vqlUqHlw_epj4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "921723301130-vqlfpshjq8eo4btl97ohfbfjs7old69b.apps.googleusercontent.com",
+              "client_id": "1016559170805-rbpvh879k1mqqq54b4u5ocekridusf7g.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

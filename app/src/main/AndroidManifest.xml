@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NovelToon">
         <activity
+            android:name=".BookDetails"
+            android:exported="false" />
+        <activity
+            android:name=".BookMainActivity"
+            android:exported="false" />
+        <activity
             android:name=".home"
             android:exported="false" />
         <activity
