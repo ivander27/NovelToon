@@ -6,8 +6,12 @@
         <entry key="..\:/Users/Public/Documents/NovelToon/app/src/main/res/drawable/bggradient.xml" value="0.178" />
         <entry key="..\:/Users/Public/Documents/NovelToon/app/src/main/res/layout/activity_home.xml" value="0.2" />
         <entry key="..\:/Users/Public/Documents/NovelToon/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Public/Documents/NovelToon/app/src/main/res/layout/activity_profile.xml" value="0.22" />
         <entry key="..\:/Users/Public/Documents/NovelToon/app/src/main/res/layout/activity_signin.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Public/Documents/NovelToon/app/src/main/res/layout/activity_signup.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Public/Documents/NovelToon/app/src/main/res/layout/activity_updatepassword.xml" value="0.22" />
+        <entry key="..\:/Users/Public/Documents/NovelToon/app/src/main/res/layout/activity_updateprofil.xml" value="0.2" />
+        <entry key="..\:/Users/Public/Documents/NovelToon/app/src/main/res/layout/activity_updateprofile.xml" value="0.22" />
       </map>
     </option>
   </component>

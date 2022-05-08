@@ -11,4 +11,18 @@
     <string name="welcome_to_noveltoon">Welcome to NovelToon</string>
     <string name="go_to_login_page">Go to Login Page</string>
     <string name="back_to_login">Back to Login</string>
+    <string name="profile">Profile</string>
+    <string name="nama">Nama :</string>
+    <string name="Email">Email :</string>
+    <string name="update_profil">Update Profil</string>
+    <string name="update_passowrd">Update Passowrd</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="insert_nama">Insert Nama</string>
+    <string name="insert_email">Insert Email</string>
+    <string name="save">Save</string>
+    <string name="update_password">Update Password</string>
+    <string name="old_password">Old Password :</string>
+    <string name="insert_password">Insert Password</string>
+    <string name="new_password">New Password :</string>
+    <string name="confirm_password">Confirm Password :</string>
 </resources>
