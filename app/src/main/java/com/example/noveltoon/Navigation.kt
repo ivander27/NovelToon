@@ -57,10 +57,25 @@ class Navigation : AppCompatActivity() {
                 )
             )
         }
-
-        
-
     }
+
+//    buat click navigasi mantab
+//    override fun onOptionsItemSelected(item: Item): Boolean {
+//        // Handle item selection
+//        when (Item()) {
+//            case R.id.nav_home:
+//                home();
+//                return true;
+//            case R.id.nav_profile:
+//                profile();
+//                return true;
+//            case R.id.nav_logout:
+//                finish();
+//                return true;
+//            default:
+//                return super.onOptionsItemSelected(Item);
+//        }
+//    }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
