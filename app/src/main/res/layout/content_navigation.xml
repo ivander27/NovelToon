@@ -28,11 +28,12 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next"
         tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="449dp" />
+        tools:layout_editor_absoluteY="449dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
