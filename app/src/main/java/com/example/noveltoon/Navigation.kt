@@ -31,7 +31,7 @@ class Navigation : AppCompatActivity() {
 
         setSupportActionBar(binding.appBarNavigation.toolbar)
 
-        binding.appBarNavigation.fab.setOnClickListener { view ->
+        binding.appBarNavigation.toolbar.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
