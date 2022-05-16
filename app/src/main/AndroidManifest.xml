@@ -24,9 +24,6 @@
             android:name=".profile"
             android:exported="false" />
         <activity
-            android:name=".home"
-            android:exported="false" />
-        <activity
             android:name=".signup"
             android:exported="true"
             android:label="signup" />
