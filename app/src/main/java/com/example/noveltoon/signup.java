@@ -16,6 +16,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserProfileChangeRequest;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class signup extends AppCompatActivity {
     private EditText editName, editEmail, editPassword, editConfirmPassword;
@@ -63,10 +64,22 @@ public class signup extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful())
                 {
-                    Toast.makeText(getApplicationContext(),"You are successfully Registered", Toast.LENGTH_SHORT).show();
-                }
-                else
-                {
+                    User user = new User(name,email,password);
+
+                    FirebaseDatabase.getInstance().getReference("User")
+                            .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                            .setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
+                        @Override
+                        public void onComplete(@NonNull Task<Void> task) {
+                            if(task.isSuccessful()){
+                                Toast.makeText(getApplicationContext(),"You are successfully Registered", Toast.LENGTH_SHORT).show();
+                            } else
+                            {
+                                Toast.makeText(getApplicationContext(),"You are not Registered! Try again",Toast.LENGTH_SHORT).show();
+                            }
+                        }
+                    });
+                }else{
                     Toast.makeText(getApplicationContext(),"You are not Registered! Try again",Toast.LENGTH_SHORT).show();
                 }
             }
