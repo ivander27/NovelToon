@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NovelToon">
         <activity
+            android:name=".Navigation"
+            android:exported="false"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/Theme.NovelToon.NoActionBar" />
+        <activity
             android:name=".updatepassword"
             android:exported="false" />
         <activity
@@ -19,9 +24,6 @@
             android:name=".profile"
             android:exported="false" />
         <activity
-            android:name=".home"
-            android:exported="false" />
-        <activity
             android:name=".signup"
             android:exported="true"
             android:label="signup" />
@@ -29,6 +31,12 @@
             android:name=".signin"
             android:exported="true"
             android:label="signin" />
+
+        <activity android:name=".BookMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BookDetails"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
