@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnNextPage = findViewById(R.id.button_nextpage);
+ Jo
 
 //        btnNextPage.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -36,6 +37,18 @@ public class MainActivity extends AppCompatActivity {
 
         btnNextPage.setOnClickListener(v -> {
             startActivity(new Intent(getApplicationContext(), signin.class));
+
+        //     btnNextPage.setOnClickListener(new View.OnClickListener() {
+ //           @Override
+ //           public void onClick(View view) {
+ //               FragmentTransaction fragmentTransaction=getSupportFragmentManager().beginTransaction();
+ //               fragmentTransaction.replace(R.id.welcome, new HomeFragment()).commit();
+ //           }
+ //       });
+
+        btnNextPage.setOnClickListener(v -> {
+            startActivity(new Intent(getApplicationContext(), signin.class)); //sign in
+ master
         });
     }
 
