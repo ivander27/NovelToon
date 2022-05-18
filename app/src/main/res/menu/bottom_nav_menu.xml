@@ -3,17 +3,17 @@
 
     <item
         android:id="@+id/home"
-        android:icon="@drawable/ic_baseline_home_24"
         android:title="Home"
-        android:visible="true"/>
+        android:icon="@drawable/ic_baseline_home_24"
+        />
     <item
         android:id="@+id/profile"
-        android:icon="@drawable/ic_baseline_person_24"
         android:title="Profile"
-        android:visible="true"/>
+        android:icon="@drawable/ic_baseline_person_24"
+        />
     <item
         android:id="@+id/logout"
-        android:icon="@drawable/ic_baseline_exit_to_app_24"
         android:title="Log Out"
-        android:visible="true"/>
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        />
 </menu>
