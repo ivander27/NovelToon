@@ -2,6 +2,7 @@ package com.example.noveltoon;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +11,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.noveltoon.databinding.ActivityMainBinding;
+import com.example.noveltoon.databinding.ActivityNavigationBinding;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,9 +23,17 @@ public class MainActivity extends AppCompatActivity {
 
         btnNextPage = findViewById(R.id.button_nextpage);
 
-        btnNextPage.setOnClickListener(v -> {
-            startActivity(new Intent(getApplicationContext(), HomeFragment.class));
+        btnNextPage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentTransaction fragmentTransaction=getSupportFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.welcome, new HomeFragment()).commit();
+            }
         });
+
+//        btnNextPage.setOnClickListener(v -> {
+//            startActivity(new Intent(getApplicationContext(), signin.class)); //sign in
+//        });
     }
 
 

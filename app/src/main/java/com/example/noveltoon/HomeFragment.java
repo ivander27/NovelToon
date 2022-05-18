@@ -63,16 +63,14 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
-        Button btnNext = (Button) rootView.findViewById(R.id.button_main);
-
+        Button btnNext = (Button) rootView.findViewById(R.id.button_to_bookMain);
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View arg0) {
+            public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), BookMainActivity.class);
-                getActivity().startActivity(intent);
+                startActivity(intent);
             }
         });
-
         return rootView;
     }
 }

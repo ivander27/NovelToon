@@ -19,12 +19,16 @@
         <entry key="..\:/PPB/NovelToon/app/src/main/res/layout/fragment_home.xml" value="0.2015625" />
         <entry key="..\:/PPB/NovelToon/app/src/main/res/layout/fragment_slideshow.xml" value="0.2015625" />
         <entry key="..\:/PPB/NovelToon/app/src/main/res/layout/nav_header_navigation.xml" value="0.2015625" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.1345" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1345" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1345" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/drawable/ic_menu_camera.xml" value="0.164" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/drawable/selector.xml" value="0.1345" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/layout/activity_book_details.xml" value="0.1" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/layout/activity_book_main.xml" value="0.1" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/layout/activity_home.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
-        <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/layout/activity_navigation.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/layout/activity_navigation.xml" value="0.15" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/layout/activity_profile.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/layout/activity_signin.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/layout/activity_signup.xml" value="0.17074275362318841" />
@@ -40,7 +44,7 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/layout/fragment_slideshow.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/layout/nav_header_navigation.xml" value="0.22135007849293564" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
-        <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/menu/bottom_nav_menu.xml" value="0.209375" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/NovelToon/app/src/main/res/menu/navigation.xml" value="0.209375" />
         <entry key="..\:/Users/Public/Documents/NovelToon/app/src/main/res/drawable/bggradient.xml" value="0.178" />
         <entry key="..\:/Users/Public/Documents/NovelToon/app/src/main/res/layout/activity_home.xml" value="0.2" />

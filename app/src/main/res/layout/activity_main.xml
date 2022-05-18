@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="@drawable/bggradient"
     tools:context=".MainActivity"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:id="@+id/welcome">
 
     <TextView
         android:id="@+id/sambutan"
