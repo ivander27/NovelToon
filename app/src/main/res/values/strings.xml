@@ -37,4 +37,8 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="back">Back</string>
+    <string name="umur">Umur :</string>
+    <string name="insert_umur">Insert Umur</string>
+    <string name="umurprofil">Umur :</string>
+
 </resources>
