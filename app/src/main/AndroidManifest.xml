@@ -10,10 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NovelToon">
         <activity
-            android:name=".Navigation"
-            android:exported="false"
-            android:label="@string/title_activity_navigation"
-            android:theme="@style/Theme.NovelToon.NoActionBar" />
+            android:name=".Home"
+            android:exported="false" />
         <activity
             android:name=".updatepassword"
             android:exported="false" />
@@ -31,11 +29,17 @@
             android:name=".signin"
             android:exported="true"
             android:label="signin" />
-
-        <activity android:name=".BookMainActivity"
+        <activity
+            android:name=".BookMainActivity"
             android:exported="true" />
         <activity
             android:name=".BookDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Logout"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

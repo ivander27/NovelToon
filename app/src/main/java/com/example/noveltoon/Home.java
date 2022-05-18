@@ -10,23 +10,22 @@ import android.widget.Button;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class updatepassword extends AppCompatActivity {
-    private Button btnsavepassword;
-    private Button btnbackpassword;
+public class Home extends AppCompatActivity {
+
+    private Button btnClickAnywhere;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_updatepassword);
+        setContentView(R.layout.activity_home);
 
-        btnsavepassword = findViewById(R.id.button_savepassword);
-        btnbackpassword = findViewById(R.id.button_backpassword);
+        btnClickAnywhere = findViewById(R.id.button_to_bookMain);
 
-
-        btnbackpassword.setOnClickListener(v -> {
-            startActivity(new Intent(getApplicationContext(), profile.class));
+        btnClickAnywhere.setOnClickListener(v -> {
+            startActivity(new Intent(getApplicationContext(), BookMainActivity.class));
         });
+
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
-        bottomNavigationView.setSelectedItemId(R.id.profile);
+        bottomNavigationView.setSelectedItemId(R.id.home);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -36,8 +35,6 @@ public class updatepassword extends AppCompatActivity {
                         overridePendingTransition(0, 0);
                         return true;
                     case R.id.home:
-                        startActivity(new Intent(getApplicationContext(), Home.class));
-                        overridePendingTransition(0,0);
                         return true;
                     case R.id.logout:
                         finish();

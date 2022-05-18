@@ -65,7 +65,7 @@ public class signin extends AppCompatActivity {
         });
     }
     private void reload(){
-        startActivity(new Intent(getApplicationContext(), BookMainActivity.class));
+        startActivity(new Intent(getApplicationContext(), Home.class));
     }
     @Override
     public void onStart() {
